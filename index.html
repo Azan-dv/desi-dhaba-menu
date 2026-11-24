@@ -1,76 +1,71 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style>
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td, th {
-  border: 1px solid: #5C4033;
-  text-align: left;
-  padding: 8px;
-}
-h2{
-  background-color:#ADD8E6
-}
-tr:nth-child(even) {
-  background-color: #ADD8E6;
-}
-</style>
- <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Desi Dhaba | Home</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h2>DESI DHABA MENU</h2>
-<img src="images/images (1).jfif"width="300">
-<table>
-  <tr>
-    <th>ITEM</th>
-    <th>PRICE</th>
-    
-  </tr>
-  <tr>
-    <td>Chicken Karahi</td>
-    <td>Rs 1800 per person</td>
-    
-  </tr>
-  <tr>
-    <td>Daleem Chawal</td>
-    <td>Rs 270 per plate</td>
-    
-  </tr>
-  <tr>
-    <td>Daal Mash</td>
-    <td>Rs 150 per plate</td>
-    
-  </tr>
-  <tr>
-    <td>Naan</td>
-    <td>Rs 150 per person</td>
-    
-  </tr>
-  <tr>
-    <td>Sweet Lassi</td>
-    <td>Rs 120 per cup</td>
-    
-  </tr>
-  <tr>
-    <td>Sabzi</td>
-    <td>Rs 150 per plate</td>
-    
-  </tr>
-</table>
-<button onclick="ORDER()">ORDER</button>
+  <nav>
+    <a href="index.html" class="brand">DESI DHABA</a>
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="menu.html">Specials &amp; Combos</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
 
-<script>
+  <div class="container">
+    <h2>DESI DHABA MENU</h2>
+    <p>Welcome to our traditional Desi Dhaba! Freshly cooked karahi, daal, lassi, and tandoori naan served hot every day.</p>
+    <img src="images/images (1).jfif" width="300" alt="Desi Dhaba Special Dish">
+
+    <table>
+      <tr>
+        <th>ITEM</th>
+        <th>PRICE</th>
+      </tr>
+      <tr>
+        <td>Chicken Karahi</td>
+        <td>Rs 1800 per person</td>
+      </tr>
+      <tr>
+        <td>Daleem Chawal</td>
+        <td>Rs 270 per plate</td>
+      </tr>
+      <tr>
+        <td>Daal Mash</td>
+        <td>Rs 150 per plate</td>
+      </tr>
+      <tr>
+        <td>Naan</td>
+        <td>Rs 150 per person</td>
+      </tr>
+      <tr>
+        <td>Sweet Lassi</td>
+        <td>Rs 120 per cup</td>
+      </tr>
+      <tr>
+        <td>Sabzi</td>
+        <td>Rs 150 per plate</td>
+      </tr>
+    </table>
+
+    <button onclick="ORDER()">ORDER</button>
+  </div>
+
+  <footer>
+    <p>Desi Dhaba Menu &copy; 2026 | Open Daily: 8:00 AM - 1:00 AM</p>
+  </footer>
+
+  <script>
     function ORDER() {
-        console.log("Say ORDER was clicked");
-        window.alert("YOUR ORDER HAS BEEN CONFIRMED");
+      console.log("Say ORDER was clicked");
+      window.alert("YOUR ORDER HAS BEEN CONFIRMED");
     }
-</script>
+  </script>
+
 </body>
 </html>
-
