@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Desi Dhaba | Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="brand">DESI DHABA</a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Specials &amp; Combos</a></li>
+      <li><a href="gallery.html" class="active">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <h2>DESI DHABA FOOD GALLERY</h2>
+    <p>Take a look at our signature dishes prepared fresh on order.</p>
+
+    <div class="gallery-grid">
+      <div class="gallery-card">
+        <img src="images/images (1).jfif" alt="Signature Dhaba Dish">
+        <h3>House Special Platter</h3>
+        <p>Served hot straight from our dhaba kitchen.</p>
+      </div>
+
+      <div class="gallery-card">
+        <div class="dish-banner">CHICKEN KARAHI</div>
+        <h3>Sizzling Chicken Karahi</h3>
+        <p>Cooked in an iron wok with fresh tomatoes, ginger, and green chilies.</p>
+      </div>
+
+      <div class="gallery-card">
+        <div class="dish-banner">DALEEM CHAWAL</div>
+        <h3>Special Daleem Chawal</h3>
+        <p>Slow-cooked lentils and meat served over steamed rice with fried onions.</p>
+      </div>
+
+      <div class="gallery-card">
+        <div class="dish-banner">DAAL MASH &amp; NAAN</div>
+        <h3>Tarka Daal Mash</h3>
+        <p>Traditional white lentils topped with desi ghee tarka and hot naan.</p>
+      </div>
+
+      <div class="gallery-card">
+        <div class="dish-banner">SWEET LASSI</div>
+        <h3>Chilled Sweet Lassi</h3>
+        <p>Refreshing churned yogurt drink served in a tall cup.</p>
+      </div>
+
+      <div class="gallery-card">
+        <div class="dish-banner">FRESH SABZI</div>
+        <h3>Seasonal Dhaba Sabzi</h3>
+        <p>Home-style spiced vegetables cooked fresh every morning.</p>
+      </div>
+    </div>
+
+    <button onclick="ORDER()">ORDER</button>
+  </div>
+
+  <footer>
+    <p>Desi Dhaba Menu &copy; 2026 | Open Daily: 8:00 AM - 1:00 AM</p>
+  </footer>
+
+  <script>
+    function ORDER() {
+      console.log("Say ORDER was clicked");
+      window.alert("YOUR ORDER HAS BEEN CONFIRMED");
+    }
+  </script>
+
+</body>
+</html>
